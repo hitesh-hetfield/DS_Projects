@@ -43,31 +43,40 @@ This is my first Machine Learning Project in which I've trained 3 Classification
 3. Random Forest
 4.  To get the data to the point of training the Machine Learning Model, I employed techniques like:
     - Checking null and duplicate values.
-        - Using Exploratory Data Analysis on Categorical and Numerical Variables:
+    - Using Exploratory Data Analysis on Categorical and Numerical Variables:
         - Visualizing and Exploring the distribution of Categorical Variables through a Countplot.
         - Visualizing and Exploring the distribution of Numerical Variables through a Histplot and Violinplot.
         - Visualizing and Exploring outliers through Boxplot.
         - Visualizing and Exploring the relationship between the Target Variable and Numerical Variables via Lineplot, and Stacked Histplot.
         - Visualizing and Exploring the relationship between the Target Variable and Categorical Variables via Countplot by giving the hue of the Target Variable.
-- Visualizing and Exploring the correlation between the Target Variable and Numerical Variables via Heatmap.
-- Splitting the Data into Training and Testing Sets.
-- Encoding the Categorical Variables using OneHotEncoding.
-- Scaling down the Numerical Variables using StandardScaler and MinMaxScaler.
-- Building the 3 Classification Models.
-- Measuring their performance metrics which include:
+        - Visualizing and Exploring the correlation between the Target Variable and Numerical Variables via Heatmap.
+5. Splitting the Data into Training and Testing Sets.
+6. Encoding the Categorical Variables using OneHotEncoding.
+7. Scaling down the Numerical Variables using StandardScaler and MinMaxScaler.
+8. Building the 3 Classification Models.
+9. Measuring their performance metrics which include:
   - Precision
   - Recall
   - F1 Score
   - Accuracy
   - AUC Percentage
   - ROC Curve
-- 
-
-  
+10. Employing Feature Engineering to improve Model Performance.
+11. Using pandas function to group extreme numerical variables and classify them into categories using:
+    - defining custom functions
+    - .apply()
+    - .map()
+    - .cut()
+    - .replace()
+    - 
 ## Learnings
 
-The first real project I worked on, taught me several things:
-- Getting comfortable with working with a relatively large and noisy dataset.
+- This project was a vast ocean of learning, immersing me in a sea of knowledge and growth.
+1. Interpreting results between Categorical and Numerical Variables
+2. Learning practical use-case of Deep Copy.
+3. Tuning Sklearn models as per my requirements:
+    1. Under OneHotEncoder setting parameters like:
+        - drop, sparse_output, handle_unknown 
 - Using and showcasing several Python techniques and libraries:
   1. Numpy
   2. Pandas
