@@ -46,7 +46,7 @@ This is my first Machine Learning Project in which I've trained 3 Classification
 7. Scaling down the Numerical Variables using StandardScaler and MinMaxScaler.
 8. Using SMOTE to tackle Class Imbalance.
 9. Building the 3 Classification Models.
-10. Measuring their performance metrics which include:
+10. Measuring their performance using metrics which include:
     - Precision
     - Recall
     - F1 Score
