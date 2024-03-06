@@ -1,5 +1,4 @@
-# TERM DEPOSIT PREDICTION USING LOGISTIC REGRESSION, DECISION TREE and RANDOM FOREST
-Implementing Multiple Linear Regression to predict Car Prices
+# Bank Term Deposit Prediction Project
 
 ## Table of Contents
 
@@ -9,27 +8,20 @@ Implementing Multiple Linear Regression to predict Car Prices
 - [Data Source](#data-source)
 - [Features](#features)
 - [Learnings](#learnings)
+- [Conclusion](#conclusion)
+- [Project Snippets](#project-snippets)
 
 ## Introduction
 
-- Term Deposits are a major source of income for a bank. A term deposit is a cash investment held at a financial institution. 
-- The bank has various outreach plans to sell term deposits to their customers such as:
-    - Email Marketing
-    - Advertisements
-    - Telephonic Marketing
-    - Your money is invested for an agreed rate of interest over a fixed amount of time, or term. 
-    - Digital Marketing
+- Term deposits are a significant source of income for banks, involving cash investments held at financial institutions.
+- Banks employ various outreach strategies to enhance term deposit sales, including email marketing, advertisements, telephonic marketing, and digital marketing.
 
 ## Problem
-- Telephonic marketing campaigns still remain one of the most effective way to reach out to 
-people. 
-- Telephonic marketing require huge investment as large call centers are hired to actually 
-execute these campaigns. 
-- Hence, it is crucial to identify the customers most likely to convert beforehand so that they 
-can be specifically targeted via call.
+- Telephonic marketing campaigns remain effective for customer outreach but require substantial investments in call centers. 
+- Identifying potential customers likely to convert beforehand is crucial for targeted calling.
 
 ## Objective
-- The goal is to predict if the client will subscribe to a term deposit (variable y)
+- The objective of this project is to predict whether a client will subscribe to a term deposit.
 
 ## Data Source
 This data set is taken from Kaggle, the link to which is: 
@@ -53,16 +45,17 @@ This is my first Machine Learning Project in which I've trained 3 Classification
 5. Splitting the Data into Training and Testing Sets.
 6. Encoding the Categorical Variables using OneHotEncoding.
 7. Scaling down the Numerical Variables using StandardScaler and MinMaxScaler.
-8. Building the 3 Classification Models.
-9. Measuring their performance metrics which include:
-  - Precision
-  - Recall
-  - F1 Score
-  - Accuracy
-  - AUC Percentage
-  - ROC Curve
-10. Employing Feature Engineering to improve Model Performance.
-11. Using pandas function to group extreme numerical variables and classify them into categories using:
+8. Using SMOTE to tackle Class Imbalance.
+9. Building the 3 Classification Models.
+10. Measuring their performance metrics which include:
+    - Precision
+    - Recall
+    - F1 Score
+    - Accuracy
+    - AUC Percentage
+    - ROC Curve
+11. Employing Feature Engineering to improve Model Performance.
+12. Using pandas function to group extreme numerical variables and classify them into categories using:
     - defining custom functions
     - .apply()
     - .map()
@@ -73,51 +66,28 @@ This is my first Machine Learning Project in which I've trained 3 Classification
 
 - This project was a vast ocean of learning, immersing me in a sea of knowledge and growth.
 1. Interpreting results between Categorical and Numerical Variables
-2. Learning practical use-case of Deep Copy.
-3. Tuning Sklearn models as per my requirements:
+3. Learning practical use-case of Deep Copy.
+4. Tuning Sklearn models as per my requirements:
     1. Under OneHotEncoder setting parameters like:
-        - drop, sparse_output, handle_unknown 
-- Using and showcasing several Python techniques and libraries:
-  1. Numpy
-  2. Pandas
-  3. Scipy
-  4. Matplotlib
-  5. Seaborn
-  6. Scikit Learn
-- Using techniques like:
-  1. Outlier Detection
-  2. Identifying Input Features and Target Variables.
-  3. Visualizing different graphs for different variables.
-  4. Visualizing relationships amongst different variables.
-- Hypothesis Testing:
-  1. Deciding which test to conduct.
-  2. Defining a significant alpha value.
-  3. Comparing the alpha with the p-value and t-calculated with t-critical to draw conclusions about the statistical significance and infer information about the population based on the sample.
-- Employing OLS and Normal Equation to build a Multiple Linear Regression Model
-- Splitting the dataset into training and testing splits.
-- Visualising the predictions and actual values via scatterplot.
-- Using Regression Performance Metrics to check the accuracy of our model:
-    1. Mean Absolute Error
-    2. Mean Squared Error
-    3. Root Mean Squared Error
-    4. R2 Score
-    5. Adjusted R2 Score
-- Employing Gradient Descent to build the second Multiple Linear Regression Model.
-- Feature Engineering:
-  1. Introducing new features from the existing ones to prevent overfitting and save computational resources.
-  2. Since introducing new features may increase the chances of introducing Multi-Collinearity in the dataset.
-  3. Checking for Multi-Collinearity through Heatmap and Variance Inflation Factor (VIF).
-  4. Choosing relevant features for the second model.
-- Feature Scaling
-  1. Using Z-Score Normalization to scale the input features for a better and more accurate model.
-- Using Gradient Descent to build the second model.
-- Visualising the predictions and actual values via scatterplot.
-- Using Regression Performance Metrics to check the accuracy of our model:
-  1. Mean Absolute Error
-  2. Mean Squared Error
-  3. Root Mean Squared Error
-  4. R2 Score
-  5. Adjusted R2 Score
+        - drop, sparse_output, handle_unknown
+    2. Using Standard Scaling to scale down the Numerical Columns.
+    3. Using set_output to transform the encoded columns directly into a pandas dataframe.
+5. Integrating fundamental Python datatypes into my workflow by storing the metrics in a dictionary and using said dictionary to plot and compare the metrics of different models.
+6. Clubbing extreme Numerical Variables into categories by:
+    - grouping them under different brackets.
+    - defining custom functions for these brackets.
+    - mapping the values in the Numerical Columns into defined brackets.
+7. Merging similar Categorical Variables into one to reduce the # of categories and hence reduce the dimensions.
+8. Making new columns based on the percentage of the target variable, converting them into categories.
+9. Scaling down the remaining Numerical Variables using MinMaxScaler
+10. Checking Class Imbalance:
+    - Using SMOTE to oversample the minority class in the target variable.
+
+## Conclusion
+
+This project provided valuable insights into predicting term deposit subscriptions using machine learning techniques. By leveraging exploratory data analysis, preprocessing, model building, and evaluation, the project aimed to optimize telephonic marketing campaigns for enhanced customer conversion rates. Further refinements and explorations could include advanced modeling techniques and the incorporation of additional features for more accurate predictions.
+
+## Project Snippets
 
 Below you can find a few snippets of the project
 
