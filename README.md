@@ -60,16 +60,16 @@ This is my first Machine Learning Project in which I've trained 3 Classification
     - .map()
     - .cut()
     - .replace()
-    - 
+      
 ## Learnings
 
 - This project was a vast ocean of learning, immersing me in a sea of knowledge and growth.
-1. Interpreting results between Categorical and Numerical Variables
+1. Interpreting results between Categorical and Numerical Variables.
 3. Learning practical use-case of Deep Copy.
 4. Tuning Sklearn models as per my requirements:
     1. Under OneHotEncoder setting parameters like:
         - drop, sparse_output, handle_unknown
-    2. Using Standard Scaling to scale down the Numerical Columns.
+    2. Using Standard and Min Max Scaling to scale down the Numerical Columns.
     3. Using set_output to transform the encoded columns directly into a pandas dataframe.
 5. Integrating fundamental Python datatypes into my workflow by storing the metrics in a dictionary and using said dictionary to plot and compare the metrics of different models.
 6. Clubbing extreme Numerical Variables into categories by:
@@ -90,10 +90,10 @@ This project provided valuable insights into predicting term deposit subscriptio
 
 Below you can find a few snippets of the project
 
-![image](https://github.com/hitesh-hetfield/DS_Projects/assets/151897902/71816b84-6bba-4527-abfe-c08a980c02c3)
-![image](https://github.com/hitesh-hetfield/DS_Projects/assets/151897902/4096e75e-2319-4aea-b93c-4dbdb156411b)
-![image](https://github.com/hitesh-hetfield/DS_Projects/assets/151897902/ce9d06e0-22a3-4f46-8d04-80092b0bc256)
-![image](https://github.com/hitesh-hetfield/DS_Projects/assets/151897902/817487e5-6a78-4e6f-bdd3-90418b913618)
+![image](https://github.com/hitesh-hetfield/DS_Projects/assets/151897902/284374e9-c8ca-40a3-9cee-235b1409169b)
+![image](https://github.com/hitesh-hetfield/DS_Projects/assets/151897902/b3f3a348-28c4-4ca6-8fa3-9cdd94687d13)
+![image](https://github.com/hitesh-hetfield/DS_Projects/assets/151897902/8f1f5612-6c4e-495c-9480-76340159c3b8)
+![image](https://github.com/hitesh-hetfield/DS_Projects/assets/151897902/1c01c6d6-85e5-4dc8-92a0-d3137e7d6a38)
 
 
 
