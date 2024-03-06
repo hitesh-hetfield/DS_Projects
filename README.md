@@ -41,15 +41,15 @@ This is my first Machine Learning Project in which I've trained 3 Classification
 1. Logistic Regression
 2. Decision Tree
 3. Random Forest
-To get the data to the point of training the Machine Learning Model, I employed techniques like:
-  - Checking null and duplicate values.
-  - Using Exploratory Data Analysis on Categorical and Numerical Variables:
-    - Visualizing and Exploring the distribution of Categorical Variables through a Countplot.
-    - Visualizing and Exploring the distribution of Numerical Variables through a Histplot and Violinplot.
-    - Visualizing and Exploring outliers through Boxplot.
-    - Visualizing and Exploring the relationship between the Target Variable and Numerical Variables via Lineplot, and Stacked Histplot.
-    - Visualizing and Exploring the relationship between the Target Variable and Categorical Variables via Countplot by giving the hue of the Target Variable.
-    - Visualizing and Exploring the correlation between the Target Variable and Numerical Variables via Heatmap.
+4.  To get the data to the point of training the Machine Learning Model, I employed techniques like:
+    - Checking null and duplicate values.
+        - Using Exploratory Data Analysis on Categorical and Numerical Variables:
+        - Visualizing and Exploring the distribution of Categorical Variables through a Countplot.
+        - Visualizing and Exploring the distribution of Numerical Variables through a Histplot and Violinplot.
+        - Visualizing and Exploring outliers through Boxplot.
+        - Visualizing and Exploring the relationship between the Target Variable and Numerical Variables via Lineplot, and Stacked Histplot.
+        - Visualizing and Exploring the relationship between the Target Variable and Categorical Variables via Countplot by giving the hue of the Target Variable.
+- Visualizing and Exploring the correlation between the Target Variable and Numerical Variables via Heatmap.
 - Splitting the Data into Training and Testing Sets.
 - Encoding the Categorical Variables using OneHotEncoding.
 - Scaling down the Numerical Variables using StandardScaler and MinMaxScaler.
