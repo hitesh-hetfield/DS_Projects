@@ -1,34 +1,69 @@
-# CAR PRICE PREDICTION MULTIPLE LINEAR REGRESSION
-
+# TERM DEPOSIT PREDICTION USING LOGISTIC REGRESSION, DECISION TREE and RANDOM FOREST
 Implementing Multiple Linear Regression to predict Car Prices
 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Problem Statement](#problem)
+- [Objective](#objective)
 - [Data Source](#data-source)
 - [Features](#features)
 - [Learnings](#learnings)
 
 ## Introduction
 
-The car company wants to enter a new market and needs an estimation of exactly which variables affect the car prices.
-The goal is:
-  - Which variables are significant in predicting the price of a car?
-  - How well do those variables describe the price of a car?
+- Term Deposits are a major source of income for a bank. A term deposit is a cash investment held at a financial institution. 
+- The bank has various outreach plans to sell term deposits to their customers such as:
+    - Email Marketing
+    - Advertisements
+    - Telephonic Marketing
+    - Your money is invested for an agreed rate of interest over a fixed amount of time, or term. 
+    - Digital Marketing
+
+## Problem
+- Telephonic marketing campaigns still remain one of the most effective way to reach out to 
+people. 
+- Telephonic marketing require huge investment as large call centers are hired to actually 
+execute these campaigns. 
+- Hence, it is crucial to identify the customers most likely to convert beforehand so that they 
+can be specifically targeted via call.
+
+## Objective
+- The goal is to predict if the client will subscribe to a term deposit (variable y)
 
 ## Data Source
 This data set is taken from Kaggle, the link to which is: 
-  - https://www.kaggle.com/datasets/hellbuoy/car-price-prediction
+  - [https://www.kaggle.com/datasets/hellbuoy/car-price-prediction](https://www.kaggle.com/datasets/thedevastator/bank-term-deposit-predictions)
 
 ## Features
 
-This is a very detailed and explanatory project for beginners who are looking to get their hands dirty with Exploratory Data Analysis, Hypothesis Testing, and Linear Regression.
+This is my first Machine Learning Project in which I've trained 3 Classification Models:
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+To get the data to the point of training the Machine Learning Model, I employed techniques like:
+  - Checking null and duplicate values.
+  - Using Exploratory Data Analysis on Categorical and Numerical Variables:
+    - Visualizing and Exploring the distribution of Categorical Variables through a Countplot.
+    - Visualizing and Exploring the distribution of Numerical Variables through a Histplot and Violinplot.
+    - Visualizing and Exploring outliers through Boxplot.
+    - Visualizing and Exploring the relationship between the Target Variable and Numerical Variables via Lineplot, and Stacked Histplot.
+    - Visualizing and Exploring the relationship between the Target Variable and Categorical Variables via Countplot by giving the hue of the Target Variable.
+    - Visualizing and Exploring the correlation between the Target Variable and Numerical Variables via Heatmap.
+- Splitting the Data into Training and Testing Sets.
+- Encoding the Categorical Variables using OneHotEncoding.
+- Scaling down the Numerical Variables using StandardScaler and MinMaxScaler.
+- Building the 3 Classification Models.
+- Measuring their performance metrics which include:
+  - Precision
+  - Recall
+  - F1 Score
+  - Accuracy
+  - AUC Percentage
+  - ROC Curve
+- 
 
-- Exploratory Data Analysis of Categorical and Numerical Variables.
-- Using 1 Sample t-test to check if a sample car feature (Average Horsepower in a Sedan) from my dataset is a good representation of the population.
-- Using Ordinary Least Squares (OLS) and Normal Equation.
-- Using Gradient Descent and Cost Function.
-
+  
 ## Learnings
 
 The first real project I worked on, taught me several things:
