@@ -37,10 +37,10 @@ This is my first Machine Learning Project in which I've trained 3 Classification
     - Using Exploratory Data Analysis on Categorical and Numerical Variables:
         - Visualizing and Exploring the distribution of Categorical Variables through a Countplot.
         - Visualizing and Exploring the distribution of Numerical Variables through a Histplot and Violinplot.
-        - Visualizing and Exploring outliers through Boxplot.
-        - Visualizing and Exploring the relationship between the Target Variable and Numerical Variables via Lineplot, and Stacked Histplot.
-        - Visualizing and Exploring the relationship between the Target Variable and Categorical Variables via Countplot by giving the hue of the Target Variable.
-        - Visualizing and Exploring the correlation between the Target Variable and Numerical Variables via Heatmap.
+        - Visualizing and Exploring outliers through a Boxplot.
+        - Visualizing and Exploring the relationship between the Target Variable and Numerical Variables via a Lineplot, and Stacked Histplot.
+        - Visualizing and Exploring the relationship between the Target Variable and Categorical Variables via a Countplot by giving the hue of the Target Variable.
+        - Visualizing and Exploring the correlation between the Target Variable and Numerical Variables via a Heatmap.
 5. Splitting the Data into Training and Testing Sets.
 6. Encoding the Categorical Variables using OneHotEncoding.
 7. Scaling down the Numerical Variables using StandardScaler and MinMaxScaler.
