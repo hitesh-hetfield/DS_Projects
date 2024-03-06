@@ -28,7 +28,6 @@ This data set is taken from Kaggle, the link to which is:
   - https://huggingface.co/datasets/Andyrasika/banking-marketing
 
 ## Features
-
 This is my first Machine Learning Project in which I've trained 3 Classification Models:
 1. Logistic Regression
 2. Decision Tree
