@@ -25,7 +25,7 @@
 
 ## Data Source
 This data set is taken from Kaggle, the link to which is: 
-  - (https://huggingface.co/datasets/Andyrasika/banking-marketing)
+  - https://huggingface.co/datasets/Andyrasika/banking-marketing
 
 ## Features
 
